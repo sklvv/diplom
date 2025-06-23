@@ -12,7 +12,7 @@ export default function Nav() {
 	const routes = ["/resumes", "/", "/stats"];
 	const nav = useNavigate();
 	const handleNavClick = (
-		event: React.SyntheticEvent<Element, Event>,
+		_event: React.SyntheticEvent<Element, Event>,
 		value: number
 	) => {
 		setValue(value);

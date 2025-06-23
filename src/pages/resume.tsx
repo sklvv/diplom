@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate, useParams } from "react-router";
 import { Page } from "../components/Page";
 import { Avatar, Box, Button, Typography } from "@mui/material";

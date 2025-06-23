@@ -1,4 +1,3 @@
-import React from "react";
 import { PieChart } from "../feature/PieChart";
 import Header from "../components/Header";
 import { Box, Paper, Typography } from "@mui/material";
