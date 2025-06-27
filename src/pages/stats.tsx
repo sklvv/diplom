@@ -2,6 +2,7 @@ import { PieChart } from "../feature/PieChart";
 import Header from "../components/Header";
 import { Box, Paper, Typography } from "@mui/material";
 import { MOCK_RESUMES } from "../mock/resume";
+import FaceIDUnlockDemo from "./face-id";
 
 const StatsPage = () => {
 	return (
@@ -37,6 +38,7 @@ const StatsPage = () => {
 					<Typography>Состав резерва: {MOCK_RESUMES.length}</Typography>
 					<PieChart />
 				</Paper>
+				<FaceIDUnlockDemo />
 			</Box>
 		</>
 	);

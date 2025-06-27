@@ -15,7 +15,9 @@ const COLORS = [
 	"rgb(255, 64, 64)", // ярко-красный
 ];
 
-const professionCountMap = MOCK_RESUMES.reduce((acc, resume) => {
+const resumes = MOCK_RESUMES;
+
+const professionCountMap = resumes.reduce((acc, resume) => {
 	const prof = resume.proffession;
 	acc.set(prof, (acc.get(prof) || 0) + 1);
 	return acc;
